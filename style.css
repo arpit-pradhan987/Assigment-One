@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f8f4f0;
+}
+
+nav {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav .logo {
+    font-size: 80px;
+    font-weight: 500;
+
+}
+
+
+nav .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav .navbar p {
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+nav .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.right span i {
+    font-size: 30px;
+    gap: 30px;
+}
+
+main {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .left h1 {
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+main .left {
+    height: 100%;
+    width: 40%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+main .left p img {
+    margin-top: 2rem;
+    height: 20px;
+    color: #60664f;
+}
+
+main .left .color {
+    height: 20px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main .left .color .col1 {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #60664f;
+}
+
+main .right {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+main .right img {
+    height: 100%;
+    width: 60%;
+    object-position: top;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+main .right .line {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    margin-right: 10%;
+}
+
+main .right .line img {
+
+    height: 130px;
+    width: 130px;
+
+}
+
+footer {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .openbox {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 5%;
+}
+
+footer .closebox {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #c6c3c0;
+}
+
+footer .openbox .icon {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .openbox .icon span i {
+    margin-left: 30px;
+    background-color: #c6c3c0;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #60664f;
+}
+
+footer .closebox .logo {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .closebox .logo i {
+    font-size: 40px;
+    color: #60664f;
+    margin-right: 10px;
+}
+
+main .right {
+    position: relative;
+}
+
+
+#rate {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    background-color: aliceblue;
+    top: 40px;
+    left: 60px;
+    padding: 14px;
+    border-radius: 20px;
+}
+
+
+#rating {
+    position: absolute;
+    top: 40px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 14px;
+}
+
+.red-star {
+    color: #60664f;
+}
+
+#add-to-bag {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    bottom: 20px;
+    left: 49%;
+    background-color: #60664f;
+    color: white;
+    padding: 14px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.ri-shopping-bag-4-line {
+    font-size: 40px;
+}
